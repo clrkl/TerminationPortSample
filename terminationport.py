@@ -3,7 +3,7 @@ import time
 
 def worker_thread(event):
     print("Worker thread started")
-    time.sleep(4)  # Simulate a task
+    time.sleep(5)  # Simulate a task
     print("Worker thread finished")
     event.set()  # Signal that the worker thread has terminated
 
